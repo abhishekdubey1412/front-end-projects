@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: aqua;
+}
+
+h1, h2, p{
+    color: white;
+}
+
+div{
+    background: darkslateblue;
+    margin: 0px 80px 80px 80px;
+    padding: 10px 200px 40px 200px;
+    text-align: center;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+}
+
+input[id="signbtn"]{
+    width: 200px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+}

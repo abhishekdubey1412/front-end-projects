@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive Client Testimonial Section</title>
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<section>
+		<div class="swiper-container mySwiper">
+      		<div class="swiper-wrapper">
+        		<div class="swiper-slide">
+        			<div class="testimonialBox">
+        				<img src="img/right-quote.png" class="quote">
+        				<div class="content">
+        				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        				consequat.</p>
+        				<div class="details">
+        					<div class="imgBx">
+        						<img src="img/user1.jpg">
+        					</div>
+        					<h3>Someone Famous<br><span>Creative Designer</span></h3>
+        				</div>
+        				</div>
+        			</div>
+        		</div>
+        		<div class="swiper-slide">
+        			<div class="testimonialBox">
+        				<img src="img/right-quote.png" class="quote">
+        				<div class="content">
+        				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        				consequat.</p>
+        				<div class="details">
+        					<div class="imgBx">
+        						<img src="img/user1.jpg">
+        					</div>
+        					<h3>Someone Famous<br><span>Creative Designer</span></h3>
+        				</div>
+        				</div>
+        			</div>
+        		</div>
+        		<div class="swiper-slide">
+        			<div class="testimonialBox">
+        				<img src="img/right-quote.png" class="quote">
+        				<div class="content">
+        				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        				consequat.</p>
+        				<div class="details">
+        					<div class="imgBx">
+        						<img src="img/user1.jpg">
+        					</div>
+        					<h3>Someone Famous<br><span>Creative Designer</span></h3>
+        				</div>
+        				</div>
+        			</div>
+        		</div>
+      		</div>
+  		</div>
+	</section>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 3,
+          stretch: 2,
+          depth: 200,
+          modifier: 4,
+          slideShadows: true,
+        },
+        loop: true,
+      });
+    </script>
+</body>
+</html>

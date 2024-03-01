@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, .logo, nav, nav ul{
+	display: flex;
+	align-items: center;
+}
+
+header{
+  justify-content: space-around;
+  height: 70px;
+  box-shadow: 2px 0 2px gray;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.stikynav{
+	display: none;
+	position: fixed;
+	bottom: 0;
+	height: 50px;
+	background: red;
+	width: 100%;
+}
+
+.logo{
+  justify-content: center;
+}
+
+.logo h1{
+	color: #02e8af;
+	font-family: fantasy;
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+nav,ul{
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.navicon{
+	display: none;
+}
+
+ul {
+	margin-right: 30px;
+}
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  font-family: fantasy;
+  letter-spacing: 1px;
+  padding: 12px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  transition: 0.5s;
+}
+
+nav ul a:hover{
+  background-color: #02e8af;
+  cursor: pointer;
+  color: black;
+}
+
+.darkicon svg{
+	/*color: white;*/
+	transition: 1s;
+}
+
+svg:hover{
+	transform: rotateZ(180deg);
+}
+
+@media screen and (max-width: 1090px){
+
+	header{
+		justify-content: space-between;
+	}
+
+	.logo{
+		margin-left: 30px;
+	}
+
+	nav ul, .darkicon{
+		display: none;
+	}
+
+	.navicon{
+		display: block;
+		margin-right: 30px;
+	}
+}
+
+@media screen and (max-width: 380px){
+
+	header{
+		display: none;
+	}
+
+	.navicon{
+		display: none;
+	}
+
+	.stikynav{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+}

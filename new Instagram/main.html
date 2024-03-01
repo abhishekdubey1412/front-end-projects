@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Instagram</title>
+	<link rel="icon" href="Image/Instagram_icon.webp" type="image/webp" sizes="16x16">
+	<link rel="stylesheet" type="text/css" href="Main CSS/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+	<!-- Header, NavBar -->
+
+	<div class="headBar">
+		<header>
+			<nav>
+				<!-- Website logo -->
+				<div class="logo">
+					<img src="Image/logo.png">
+				</div>
+
+				<!-- Search Box -->
+				<div class="search">
+					<input type="text" name="search" placeholder="Search...">
+				</div>
+
+				<!-- NavBar icons SVG -->
+				<div class="menu">
+					<svg aria-label="Home" class="_8-yf5 " fill="#262626" height="22" viewBox="0 0 48 48" width="22">
+						<path
+							d="M45.5 48H30.1c-.8 0-1.5-.7-1.5-1.5V34.2c0-2.6-2.1-4.6-4.6-4.6s-4.6 2.1-4.6 4.6v12.3c0 .8-.7 1.5-1.5 1.5H2.5c-.8 0-1.5-.7-1.5-1.5V23c0-.4.2-.8.4-1.1L22.9.4c.6-.6 1.6-.6 2.1 0l21.5 21.5c.3.3.4.7.4 1.1v23.5c.1.8-.6 1.5-1.4 1.5z">
+						</path>
+					</svg>
+					<svg aria-label="Messenger" class="_8-yf5 " fill="#262626" height="22" viewBox="0 0 48 48"
+						width="22">
+						<path
+							d="M36.2 16.7L29 22.2c-.5.4-1.2.4-1.7 0l-5.4-4c-1.6-1.2-3.9-.8-5 .9l-6.8 10.7c-.7 1 .6 2.2 1.6 1.5l7.3-5.5c.5-.4 1.2-.4 1.7 0l5.4 4c1.6 1.2 3.9.8 5-.9l6.8-10.7c.6-1.1-.7-2.2-1.7-1.5zM24 1C11 1 1 10.5 1 23.3 1 30 3.7 35.8 8.2 39.8c.4.3.6.8.6 1.3l.2 4.1c0 1 .9 1.8 1.8 1.8.2 0 .5 0 .7-.2l4.6-2c.2-.1.5-.2.7-.2.2 0 .3 0 .5.1 2.1.6 4.3.9 6.7.9 13 0 23-9.5 23-22.3S37 1 24 1zm0 41.6c-2 0-4-.3-5.9-.8-.4-.1-.8-.2-1.3-.2-.7 0-1.3.1-2 .4l-3 1.3V41c0-1.3-.6-2.5-1.6-3.4C6.2 34 4 28.9 4 23.3 4 12.3 12.6 4 24 4s20 8.3 20 19.3-8.6 19.3-20 19.3z">
+						</path>
+					</svg>
+					<svg aria-label="Find People" class="_8-yf5 " fill="#262626" height="22" viewBox="0 0 48 48"
+						width="22">
+						<path clip-rule="evenodd"
+							d="M24 0C10.8 0 0 10.8 0 24s10.8 24 24 24 24-10.8 24-24S37.2 0 24 0zm0 45C12.4 45 3 35.6 3 24S12.4 3 24 3s21 9.4 21 21-9.4 21-21 21zm10.2-33.2l-14.8 7c-.3.1-.6.4-.7.7l-7 14.8c-.3.6-.2 1.3.3 1.7.3.3.7.4 1.1.4.2 0 .4 0 .6-.1l14.8-7c.3-.1.6-.4.7-.7l7-14.8c.3-.6.2-1.3-.3-1.7-.4-.5-1.1-.6-1.7-.3zm-7.4 15l-5.5-5.5 10.5-5-5 10.5z"
+							fill-rule="evenodd"></path>
+					</svg>
+					<svg aria-label="Activity Feed" class="_8-yf5 " fill="#262626" height="22" viewBox="0 0 48 48"
+						width="22">
+						<path
+							d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+						</path>
+					</svg>
+
+					<!-- Profile Image -->
+					<img src="Image/html.png">
+
+				</div>
+			</nav>
+		</header>
+	</div>
+
+	<div class="main">
+		<main>
+			<article>
+				<div class="maincontent">
+
+					<!-- Story Section  -->
+
+					<div class="story">
+						<div class="arrow">
+							<div id="arrowleft" class="arrowleft">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+									<path
+										d="M15.293 3.293 6.586 12l8.707 8.707 1.414-1.414L9.414 12l7.293-7.293-1.414-1.414z" />
+								</svg>
+							</div>
+							<div id="arrowright" class="arrowright">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+									<path
+										d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z" />
+								</svg>
+							</div>
+						</div>
+						<div class="border">
+							<div class="stimgcrd">
+								<img src="Image/story_1.jpg" class="storyimg">
+							</div>
+						</div>
+						<div class="border">
+							<div class="stimgcrd">
+								<img src="Image/story_2.jpg" class="storyimg">
+							</div>
+						</div>
+						<div class="border">
+							<div class="stimgcrd">
+								<img src="Image/story_3.jpg" class="storyimg">
+							</div>
+						</div>
+						<div class="border">
+							<div class="stimgcrd">
+								<img src="Image/story_4.jpg" class="storyimg">
+							</div>
+						</div>
+						<div class="border">
+							<div class="stimgcrd">
+								<img src="Image/story_5.jpg" class="storyimg">
+							</div>
+						</div>
+						<div class="border">
+							<div class="stimgcrd">
+								<img src="Image/story_6.jpg" class="storyimg">
+							</div>
+						</div>
+						<div class="border">
+							<div class="stimgcrd">
+								<img src="Image/story_1.jpg" class="storyimg">
+							</div>
+						</div>
+						<div class="border">
+							<div class="stimgcrd">
+								<img src="Image/story_2.jpg" class="storyimg">
+							</div>
+						</div>
+						<div class="border">
+							<div class="stimgcrd">
+								<img src="Image/story_3.jpg" class="storyimg">
+							</div>
+						</div>
+						<div class="border">
+							<div class="stimgcrd">
+								<img src="Image/story_4.jpg" class="storyimg">
+							</div>
+						</div>
+						<div class="border">
+							<div class="stimgcrd">
+								<img src="Image/story_5.jpg" class="storyimg">
+							</div>
+						</div>
+						<div class="border">
+							<div class="stimgcrd">
+								<img src="Image/story_6.jpg" class="storyimg">
+							</div>
+						</div>
+
+					</div>
+
+					<div class="content">
+
+						<!-- Post Cards -->
+
+						<div class="card">
+							<div class="Item-1">
+								<div class="Item-2">
+									<div class="Item-3">
+										<img src="Image/story_1.jpg" class="Item-4">
+									</div>
+								</div>
+
+								<div class="Item-5">
+									<div class="Item-6">
+										<span><a href="#">god_of_sins_</a></span>
+									</div>
+								</div>
+
+								<div class="dot">
+									<span class="dotItem"></span>
+									<span class="dotItem"></span>
+									<span class="dotItem"></span>
+								</div>
+							</div>
+
+							<div class="Item-7">
+								<div class="Item-8">
+									<img src="Image/story_1.jpg">
+								</div>
+							</div>
+
+							<div class="Item-9">
+								<span id="Item-10" class="Item-10 like_btn"><button>
+										<div><svg aria-label="Like" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<path
+												d="M34.6 3.1c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5s1.1-.2 1.6-.5c1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+												</path>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-10 like_btn like_btn_active"><button>
+										<div><svg aria-label="Unlike" class="_ab6-" color="#ed4956" fill="#ed4956"
+												height="24" role="img" viewBox="0 0 48 48" width="24">
+												<path
+													d="M34.6 3.1c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5s1.1-.2 1.6-.5c1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+												</path>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-11"><button>
+										<div><svg aria-label="Comment" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<path d="M20.656 17.008a9.993 9.993 0 10-3.59 3.615L22 22z" fill="none"
+													stroke="currentColor" stroke-linejoin="round" stroke-width="2">
+												</path>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-12"><button>
+										<div><svg aria-label="Share Post" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<line fill="none" stroke="currentColor" stroke-linejoin="round"
+													stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083"></line>
+												<polygon fill="none"
+													points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+													stroke="currentColor" stroke-linejoin="round" stroke-width="2">
+												</polygon>
+											</svg></div>
+									</button></span>
+
+								<span id="Item-13" class="Item-13"><button>
+										<div><svg aria-label="Save" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+													stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+													stroke-width="2"></polygon>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-13 active-Item-13"><button>
+										<div><svg aria-label="Remove" class="_ab6-" color="#262626" fill="#262626"
+												height="24" role="img" viewBox="0 0 24 24" width="24">
+												<path
+													d="M20 22a.999.999 0 01-.687-.273L12 14.815l-7.313 6.912A1 1 0 013 21V3a1 1 0 011-1h16a1 1 0 011 1v18a1 1 0 01-1 1z">
+												</path>
+											</svg></div>
+									</button></span>
+							</div>
+
+							<div class="Item-14">
+								<div class="Item-15">
+									<span class="Item-16"><span class="link_count">4324</span><span
+											class="Item-17">likes</span></span>
+								</div>
+
+								<div class="Item-18">
+									<div class="Item-6 Item-19">
+										<span><a href="#">god_of_sins_</a></span> <span>
+											Don’t Miss Last Slide 😂😂... <span><a href="#">more</a></span> </span>
+									</div>
+								</div>
+
+								<div class="Item-20">
+									<span>
+										<a href="#">View all 19 comments</a>
+									</span>
+								</div>
+
+								<div class="Item-21">
+									<span>1 HOUR AGO</span>
+								</div>
+							</div>
+
+							<hr class="Item-22">
+
+							<div class="Item-23">
+								<form method="POST" class="Item-24">
+									<button class="Item-25">
+										<div class="Item-26">
+											<svg aria-label="Emoji" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<path
+													d="M15.83 10.997a1.167 1.167 0 101.167 1.167 1.167 1.167 0 00-1.167-1.167zm-6.5 1.167a1.167 1.167 0 10-1.166 1.167 1.167 1.167 0 001.166-1.167zm5.163 3.24a3.406 3.406 0 01-4.982.007 1 1 0 10-1.557 1.256 5.397 5.397 0 008.09 0 1 1 0 00-1.55-1.263zM12 .503a11.5 11.5 0 1011.5 11.5A11.513 11.513 0 0012 .503zm0 21a9.5 9.5 0 119.5-9.5 9.51 9.51 0 01-9.5 9.5z">
+												</path>
+											</svg>
+										</div>
+									</button>
+									<textarea id="w3review" rows="2" cols="20" class="Item-27"
+										placeholder="Add a comment..."></textarea>
+									<button class="Item-28"><a href="#">Post</a></button>
+								</form>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="Item-1">
+								<div class="Item-2">
+									<div class="Item-3">
+										<img src="Image/story_1.jpg" class="Item-4">
+									</div>
+								</div>
+
+								<div class="Item-5">
+									<div class="Item-6">
+										<span><a href="#">god_of_sins_</a></span>
+									</div>
+								</div>
+
+								<div class="dot">
+									<span class="dotItem"></span>
+									<span class="dotItem"></span>
+									<span class="dotItem"></span>
+								</div>
+							</div>
+
+							<div class="Item-7">
+								<div class="Item-8">
+									<img src="Image/story_1.jpg">
+								</div>
+							</div>
+
+							<div class="Item-9">
+								<span id="Item-10" class="Item-10 like_btn"><button>
+										<div><svg aria-label="Like" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<path
+													d="M16.792 3.904A4.989 4.989 0 0121.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 014.708-5.218 4.21 4.21 0 013.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 013.679-1.938m0-2a6.04 6.04 0 00-4.797 2.127 6.052 6.052 0 00-4.787-2.127A6.985 6.985 0 00.5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 003.518 3.018 2 2 0 002.174 0 45.263 45.263 0 003.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 00-6.708-7.218z">
+												</path>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-10 like_btn like_btn_active"><button>
+										<div><svg aria-label="Unlike" class="_ab6-" color="#ed4956" fill="#ed4956"
+												height="24" role="img" viewBox="0 0 48 48" width="24">
+												<path
+													d="M34.6 3.1c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5s1.1-.2 1.6-.5c1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+												</path>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-11"><button>
+										<div><svg aria-label="Comment" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<path d="M20.656 17.008a9.993 9.993 0 10-3.59 3.615L22 22z" fill="none"
+													stroke="currentColor" stroke-linejoin="round" stroke-width="2">
+												</path>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-12"><button>
+										<div><svg aria-label="Share Post" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<line fill="none" stroke="currentColor" stroke-linejoin="round"
+													stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083"></line>
+												<polygon fill="none"
+													points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+													stroke="currentColor" stroke-linejoin="round" stroke-width="2">
+												</polygon>
+											</svg></div>
+									</button></span>
+
+								<span id="Item-13" class="Item-13"><button>
+										<div><svg aria-label="Save" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+													stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+													stroke-width="2"></polygon>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-13 active-Item-13"><button>
+										<div><svg aria-label="Remove" class="_ab6-" color="#262626" fill="#262626"
+												height="24" role="img" viewBox="0 0 24 24" width="24">
+												<path
+													d="M20 22a.999.999 0 01-.687-.273L12 14.815l-7.313 6.912A1 1 0 013 21V3a1 1 0 011-1h16a1 1 0 011 1v18a1 1 0 01-1 1z">
+												</path>
+											</svg></div>
+									</button></span>
+							</div>
+
+							<div class="Item-14">
+								<div class="Item-15">
+									<span class="Item-16"><span class="link_count">4324</span><span
+											class="Item-17">likes</span></span>
+								</div>
+
+								<div class="Item-18">
+									<div class="Item-6 Item-19">
+										<span><a href="#">god_of_sins_</a></span> <span>
+											Don’t Miss Last Slide 😂😂... <span><a href="#">more</a></span> </span>
+									</div>
+								</div>
+
+								<div class="Item-20">
+									<span>
+										<a href="#">View all 19 comments</a>
+									</span>
+								</div>
+
+								<div class="Item-21">
+									<span>1 HOUR AGO</span>
+								</div>
+							</div>
+
+							<hr class="Item-22">
+
+							<div class="Item-23">
+								<form method="POST" class="Item-24">
+									<button class="Item-25">
+										<div class="Item-26">
+											<svg aria-label="Emoji" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<path
+													d="M15.83 10.997a1.167 1.167 0 101.167 1.167 1.167 1.167 0 00-1.167-1.167zm-6.5 1.167a1.167 1.167 0 10-1.166 1.167 1.167 1.167 0 001.166-1.167zm5.163 3.24a3.406 3.406 0 01-4.982.007 1 1 0 10-1.557 1.256 5.397 5.397 0 008.09 0 1 1 0 00-1.55-1.263zM12 .503a11.5 11.5 0 1011.5 11.5A11.513 11.513 0 0012 .503zm0 21a9.5 9.5 0 119.5-9.5 9.51 9.51 0 01-9.5 9.5z">
+												</path>
+											</svg>
+										</div>
+									</button>
+									<textarea id="w3review" rows="2" cols="20" class="Item-27"
+										placeholder="Add a comment..."></textarea>
+									<button class="Item-28"><a href="#">Post</a></button>
+								</form>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="Item-1">
+								<div class="Item-2">
+									<div class="Item-3">
+										<img src="Image/story_1.jpg" class="Item-4">
+									</div>
+								</div>
+
+								<div class="Item-5">
+									<div class="Item-6">
+										<span><a href="#">god_of_sins_</a></span>
+									</div>
+								</div>
+
+								<div class="dot">
+									<span class="dotItem"></span>
+									<span class="dotItem"></span>
+									<span class="dotItem"></span>
+								</div>
+							</div>
+
+							<div class="Item-7">
+								<div class="Item-8">
+									<img src="Image/story_1.jpg">
+								</div>
+							</div>
+
+							<div class="Item-9">
+								<span id="Item-10" class="Item-10 like_btn"><button>
+										<div><svg aria-label="Like" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<path
+													d="M16.792 3.904A4.989 4.989 0 0121.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 014.708-5.218 4.21 4.21 0 013.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 013.679-1.938m0-2a6.04 6.04 0 00-4.797 2.127 6.052 6.052 0 00-4.787-2.127A6.985 6.985 0 00.5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 003.518 3.018 2 2 0 002.174 0 45.263 45.263 0 003.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 00-6.708-7.218z">
+												</path>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-10 like_btn like_btn_active"><button>
+										<div><svg aria-label="Unlike" class="_ab6-" color="#ed4956" fill="#ed4956"
+												height="24" role="img" viewBox="0 0 48 48" width="24">
+												<path
+													d="M34.6 3.1c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5s1.1-.2 1.6-.5c1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+												</path>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-11"><button>
+										<div><svg aria-label="Comment" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<path d="M20.656 17.008a9.993 9.993 0 10-3.59 3.615L22 22z" fill="none"
+													stroke="currentColor" stroke-linejoin="round" stroke-width="2">
+												</path>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-12"><button>
+										<div><svg aria-label="Share Post" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<line fill="none" stroke="currentColor" stroke-linejoin="round"
+													stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083"></line>
+												<polygon fill="none"
+													points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+													stroke="currentColor" stroke-linejoin="round" stroke-width="2">
+												</polygon>
+											</svg></div>
+									</button></span>
+
+								<span id="Item-13" class="Item-13"><button>
+										<div><svg aria-label="Save" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+													stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+													stroke-width="2"></polygon>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-13 active-Item-13"><button>
+										<div><svg aria-label="Remove" class="_ab6-" color="#262626" fill="#262626"
+												height="24" role="img" viewBox="0 0 24 24" width="24">
+												<path
+													d="M20 22a.999.999 0 01-.687-.273L12 14.815l-7.313 6.912A1 1 0 013 21V3a1 1 0 011-1h16a1 1 0 011 1v18a1 1 0 01-1 1z">
+												</path>
+											</svg></div>
+									</button></span>
+							</div>
+
+							<div class="Item-14">
+								<div class="Item-15">
+									<span class="Item-16"><span class="link_count">4324</span><span
+											class="Item-17">likes</span></span>
+								</div>
+
+								<div class="Item-18">
+									<div class="Item-6 Item-19">
+										<span><a href="#">god_of_sins_</a></span> <span>
+											Don’t Miss Last Slide 😂😂... <span><a href="#">more</a></span> </span>
+									</div>
+								</div>
+
+								<div class="Item-20">
+									<span>
+										<a href="#">View all 19 comments</a>
+									</span>
+								</div>
+
+								<div class="Item-21">
+									<span>1 HOUR AGO</span>
+								</div>
+							</div>
+
+							<hr class="Item-22">
+
+							<div class="Item-23">
+								<form method="POST" class="Item-24">
+									<button class="Item-25">
+										<div class="Item-26">
+											<svg aria-label="Emoji" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<path
+													d="M15.83 10.997a1.167 1.167 0 101.167 1.167 1.167 1.167 0 00-1.167-1.167zm-6.5 1.167a1.167 1.167 0 10-1.166 1.167 1.167 1.167 0 001.166-1.167zm5.163 3.24a3.406 3.406 0 01-4.982.007 1 1 0 10-1.557 1.256 5.397 5.397 0 008.09 0 1 1 0 00-1.55-1.263zM12 .503a11.5 11.5 0 1011.5 11.5A11.513 11.513 0 0012 .503zm0 21a9.5 9.5 0 119.5-9.5 9.51 9.51 0 01-9.5 9.5z">
+												</path>
+											</svg>
+										</div>
+									</button>
+									<textarea id="w3review" rows="2" cols="20" class="Item-27"
+										placeholder="Add a comment..."></textarea>
+									<button class="Item-28"><a href="#">Post</a></button>
+								</form>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="Item-1">
+								<div class="Item-2">
+									<div class="Item-3">
+										<img src="Image/story_1.jpg" class="Item-4">
+									</div>
+								</div>
+
+								<div class="Item-5">
+									<div class="Item-6">
+										<span><a href="#">god_of_sins_</a></span>
+									</div>
+								</div>
+
+								<div class="dot">
+									<span class="dotItem"></span>
+									<span class="dotItem"></span>
+									<span class="dotItem"></span>
+								</div>
+							</div>
+
+							<div class="Item-7">
+								<div class="Item-8">
+									<img src="Image/story_1.jpg">
+								</div>
+							</div>
+
+							<div class="Item-9">
+								<span id="Item-10" class="Item-10 like_btn"><button>
+										<div><svg aria-label="Like" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<path
+													d="M16.792 3.904A4.989 4.989 0 0121.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 014.708-5.218 4.21 4.21 0 013.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 013.679-1.938m0-2a6.04 6.04 0 00-4.797 2.127 6.052 6.052 0 00-4.787-2.127A6.985 6.985 0 00.5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 003.518 3.018 2 2 0 002.174 0 45.263 45.263 0 003.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 00-6.708-7.218z">
+												</path>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-10 like_btn like_btn_active"><button>
+										<div><svg aria-label="Unlike" class="_ab6-" color="#ed4956" fill="#ed4956"
+												height="24" role="img" viewBox="0 0 48 48" width="24">
+												<path
+													d="M34.6 3.1c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5s1.1-.2 1.6-.5c1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+												</path>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-11"><button>
+										<div><svg aria-label="Comment" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<path d="M20.656 17.008a9.993 9.993 0 10-3.59 3.615L22 22z" fill="none"
+													stroke="currentColor" stroke-linejoin="round" stroke-width="2">
+												</path>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-12"><button>
+										<div><svg aria-label="Share Post" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<line fill="none" stroke="currentColor" stroke-linejoin="round"
+													stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083"></line>
+												<polygon fill="none"
+													points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+													stroke="currentColor" stroke-linejoin="round" stroke-width="2">
+												</polygon>
+											</svg></div>
+									</button></span>
+
+								<span id="Item-13" class="Item-13"><button>
+										<div><svg aria-label="Save" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+													stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+													stroke-width="2"></polygon>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-13 active-Item-13"><button>
+										<div><svg aria-label="Remove" class="_ab6-" color="#262626" fill="#262626"
+												height="24" role="img" viewBox="0 0 24 24" width="24">
+												<path
+													d="M20 22a.999.999 0 01-.687-.273L12 14.815l-7.313 6.912A1 1 0 013 21V3a1 1 0 011-1h16a1 1 0 011 1v18a1 1 0 01-1 1z">
+												</path>
+											</svg></div>
+									</button></span>
+							</div>
+
+							<div class="Item-14">
+								<div class="Item-15">
+									<span class="Item-16"><span class="link_count">4324</span><span
+											class="Item-17">likes</span></span>
+								</div>
+
+								<div class="Item-18">
+									<div class="Item-6 Item-19">
+										<span><a href="#">god_of_sins_</a></span> <span>
+											Don’t Miss Last Slide 😂😂... <span><a href="#">more</a></span> </span>
+									</div>
+								</div>
+
+								<div class="Item-20">
+									<span>
+										<a href="#">View all 19 comments</a>
+									</span>
+								</div>
+
+								<div class="Item-21">
+									<span>1 HOUR AGO</span>
+								</div>
+							</div>
+
+							<hr class="Item-22">
+
+							<div class="Item-23">
+								<form method="POST" class="Item-24">
+									<button class="Item-25">
+										<div class="Item-26">
+											<svg aria-label="Emoji" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<path
+													d="M15.83 10.997a1.167 1.167 0 101.167 1.167 1.167 1.167 0 00-1.167-1.167zm-6.5 1.167a1.167 1.167 0 10-1.166 1.167 1.167 1.167 0 001.166-1.167zm5.163 3.24a3.406 3.406 0 01-4.982.007 1 1 0 10-1.557 1.256 5.397 5.397 0 008.09 0 1 1 0 00-1.55-1.263zM12 .503a11.5 11.5 0 1011.5 11.5A11.513 11.513 0 0012 .503zm0 21a9.5 9.5 0 119.5-9.5 9.51 9.51 0 01-9.5 9.5z">
+												</path>
+											</svg>
+										</div>
+									</button>
+									<textarea id="w3review" rows="2" cols="20" class="Item-27"
+										placeholder="Add a comment..."></textarea>
+									<button class="Item-28"><a href="#">Post</a></button>
+								</form>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="Item-1">
+								<div class="Item-2">
+									<div class="Item-3">
+										<img src="Image/story_1.jpg" class="Item-4">
+									</div>
+								</div>
+
+								<div class="Item-5">
+									<div class="Item-6">
+										<span><a href="#">god_of_sins_</a></span>
+									</div>
+								</div>
+
+								<div class="dot">
+									<span class="dotItem"></span>
+									<span class="dotItem"></span>
+									<span class="dotItem"></span>
+								</div>
+							</div>
+
+							<div class="Item-7">
+								<div class="Item-8">
+									<img src="Image/story_1.jpg">
+								</div>
+							</div>
+
+							<div class="Item-9">
+								<span id="Item-10" class="Item-10 like_btn"><button>
+										<div><svg aria-label="Like" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<path
+													d="M16.792 3.904A4.989 4.989 0 0121.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 014.708-5.218 4.21 4.21 0 013.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 013.679-1.938m0-2a6.04 6.04 0 00-4.797 2.127 6.052 6.052 0 00-4.787-2.127A6.985 6.985 0 00.5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 003.518 3.018 2 2 0 002.174 0 45.263 45.263 0 003.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 00-6.708-7.218z">
+												</path>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-10 like_btn like_btn_active"><button>
+										<div><svg aria-label="Unlike" class="_ab6-" color="#ed4956" fill="#ed4956"
+												height="24" role="img" viewBox="0 0 48 48" width="24">
+												<path
+													d="M34.6 3.1c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5s1.1-.2 1.6-.5c1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+												</path>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-11"><button>
+										<div><svg aria-label="Comment" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<path d="M20.656 17.008a9.993 9.993 0 10-3.59 3.615L22 22z" fill="none"
+													stroke="currentColor" stroke-linejoin="round" stroke-width="2">
+												</path>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-12"><button>
+										<div><svg aria-label="Share Post" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<line fill="none" stroke="currentColor" stroke-linejoin="round"
+													stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083"></line>
+												<polygon fill="none"
+													points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+													stroke="currentColor" stroke-linejoin="round" stroke-width="2">
+												</polygon>
+											</svg></div>
+									</button></span>
+
+								<span id="Item-13" class="Item-13"><button>
+										<div><svg aria-label="Save" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+													stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+													stroke-width="2"></polygon>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-13 active-Item-13"><button>
+										<div><svg aria-label="Remove" class="_ab6-" color="#262626" fill="#262626"
+												height="24" role="img" viewBox="0 0 24 24" width="24">
+												<path
+													d="M20 22a.999.999 0 01-.687-.273L12 14.815l-7.313 6.912A1 1 0 013 21V3a1 1 0 011-1h16a1 1 0 011 1v18a1 1 0 01-1 1z">
+												</path>
+											</svg></div>
+									</button></span>
+							</div>
+
+							<div class="Item-14">
+								<div class="Item-15">
+									<span class="Item-16"><span class="link_count">4324</span><span
+											class="Item-17">likes</span></span>
+								</div>
+
+								<div class="Item-18">
+									<div class="Item-6 Item-19">
+										<span><a href="#">god_of_sins_</a></span> <span>
+											Don’t Miss Last Slide 😂😂... <span><a href="#">more</a></span> </span>
+									</div>
+								</div>
+
+								<div class="Item-20">
+									<span>
+										<a href="#">View all 19 comments</a>
+									</span>
+								</div>
+
+								<div class="Item-21">
+									<span>1 HOUR AGO</span>
+								</div>
+							</div>
+
+							<hr class="Item-22">
+
+							<div class="Item-23">
+								<form method="POST" class="Item-24">
+									<button class="Item-25">
+										<div class="Item-26">
+											<svg aria-label="Emoji" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<path
+													d="M15.83 10.997a1.167 1.167 0 101.167 1.167 1.167 1.167 0 00-1.167-1.167zm-6.5 1.167a1.167 1.167 0 10-1.166 1.167 1.167 1.167 0 001.166-1.167zm5.163 3.24a3.406 3.406 0 01-4.982.007 1 1 0 10-1.557 1.256 5.397 5.397 0 008.09 0 1 1 0 00-1.55-1.263zM12 .503a11.5 11.5 0 1011.5 11.5A11.513 11.513 0 0012 .503zm0 21a9.5 9.5 0 119.5-9.5 9.51 9.51 0 01-9.5 9.5z">
+												</path>
+											</svg>
+										</div>
+									</button>
+									<textarea id="w3review" rows="2" cols="20" class="Item-27"
+										placeholder="Add a comment..."></textarea>
+									<button class="Item-28"><a href="#">Post</a></button>
+								</form>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="Item-1">
+								<div class="Item-2">
+									<div class="Item-3">
+										<img src="Image/story_1.jpg" class="Item-4">
+									</div>
+								</div>
+
+								<div class="Item-5">
+									<div class="Item-6">
+										<span><a href="#">god_of_sins_</a></span>
+									</div>
+								</div>
+
+								<div class="dot">
+									<span class="dotItem"></span>
+									<span class="dotItem"></span>
+									<span class="dotItem"></span>
+								</div>
+							</div>
+
+							<div class="Item-7">
+								<div class="Item-8">
+									<img src="Image/story_1.jpg">
+								</div>
+							</div>
+
+							<div class="Item-9">
+								<span id="Item-10" class="Item-10 like_btn"><button>
+										<div><svg aria-label="Like" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<path
+													d="M16.792 3.904A4.989 4.989 0 0121.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 014.708-5.218 4.21 4.21 0 013.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 013.679-1.938m0-2a6.04 6.04 0 00-4.797 2.127 6.052 6.052 0 00-4.787-2.127A6.985 6.985 0 00.5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 003.518 3.018 2 2 0 002.174 0 45.263 45.263 0 003.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 00-6.708-7.218z">
+												</path>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-10 like_btn like_btn_active"><button>
+										<div><svg aria-label="Unlike" class="_ab6-" color="#ed4956" fill="#ed4956"
+												height="24" role="img" viewBox="0 0 48 48" width="24">
+												<path
+													d="M34.6 3.1c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5s1.1-.2 1.6-.5c1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+												</path>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-11"><button>
+										<div><svg aria-label="Comment" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<path d="M20.656 17.008a9.993 9.993 0 10-3.59 3.615L22 22z" fill="none"
+													stroke="currentColor" stroke-linejoin="round" stroke-width="2">
+												</path>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-12"><button>
+										<div><svg aria-label="Share Post" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<line fill="none" stroke="currentColor" stroke-linejoin="round"
+													stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083"></line>
+												<polygon fill="none"
+													points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+													stroke="currentColor" stroke-linejoin="round" stroke-width="2">
+												</polygon>
+											</svg></div>
+									</button></span>
+
+								<span id="Item-13" class="Item-13"><button>
+										<div><svg aria-label="Save" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+													stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+													stroke-width="2"></polygon>
+											</svg></div>
+									</button></span>
+
+								<span class="Item-13 active-Item-13"><button>
+										<div><svg aria-label="Remove" class="_ab6-" color="#262626" fill="#262626"
+												height="24" role="img" viewBox="0 0 24 24" width="24">
+												<path
+													d="M20 22a.999.999 0 01-.687-.273L12 14.815l-7.313 6.912A1 1 0 013 21V3a1 1 0 011-1h16a1 1 0 011 1v18a1 1 0 01-1 1z">
+												</path>
+											</svg></div>
+									</button></span>
+							</div>
+
+							<div class="Item-14">
+								<div class="Item-15">
+									<span class="Item-16"><span class="link_count">4324</span><span
+											class="Item-17">likes</span></span>
+								</div>
+
+								<div class="Item-18">
+									<div class="Item-6 Item-19">
+										<span><a href="#">god_of_sins_</a></span> <span>
+											Don’t Miss Last Slide 😂😂... <span><a href="#">more</a></span> </span>
+									</div>
+								</div>
+
+								<div class="Item-20">
+									<span>
+										<a href="#">View all 19 comments</a>
+									</span>
+								</div>
+
+								<div class="Item-21">
+									<span>1 HOUR AGO</span>
+								</div>
+							</div>
+
+							<hr class="Item-22">
+
+							<div class="Item-23">
+								<form method="POST" class="Item-24">
+									<button class="Item-25">
+										<div class="Item-26">
+											<svg aria-label="Emoji" color="#262626" fill="#262626" height="24"
+												role="img" viewBox="0 0 24 24" width="24">
+												<path
+													d="M15.83 10.997a1.167 1.167 0 101.167 1.167 1.167 1.167 0 00-1.167-1.167zm-6.5 1.167a1.167 1.167 0 10-1.166 1.167 1.167 1.167 0 001.166-1.167zm5.163 3.24a3.406 3.406 0 01-4.982.007 1 1 0 10-1.557 1.256 5.397 5.397 0 008.09 0 1 1 0 00-1.55-1.263zM12 .503a11.5 11.5 0 1011.5 11.5A11.513 11.513 0 0012 .503zm0 21a9.5 9.5 0 119.5-9.5 9.51 9.51 0 01-9.5 9.5z">
+												</path>
+											</svg>
+										</div>
+									</button>
+									<textarea id="w3review" rows="2" cols="20" class="Item-27"
+										placeholder="Add a comment..."></textarea>
+									<button class="Item-28"><a href="#">Post</a></button>
+								</form>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<aside class="sidecontent">
+
+					<div class="profile">
+						<div class="border profilebrd">
+							<div class="stimgcrd">
+								<img src="Image/story_1.jpg" class="storyimg">
+							</div>
+						</div>
+
+						<div class="profilename">
+							<div class="namediv">
+								<div class="username">
+									<a href="#">god_of_sins_</a>
+								</div>
+								<div class="prname">
+									<a href="#">Abhiiii</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="followbtn">
+							<button><a href="#">Switch</a></button>
+						</div>
+
+					</div>
+
+					<div class="suggestions">
+						<div class="">
+
+						</div>
+
+						<div class="">
+
+						</div>
+
+						<div class="">
+
+						</div>
+
+					</div>
+				</aside>
+
+			</article>
+		</main>
+	</div>
+
+	<!-- JavaScript Code -->
+	<script type="text/javascript" src="Main JavaScript/main.js"></script>
+</body>
+
+</html>

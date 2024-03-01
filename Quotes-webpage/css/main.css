@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arima', cursive;
+}
+
+body {
+  background: #dbdbdb;
+}
+
+.header {
+  height: 100px;
+}
+
+.header,
+.nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-weight: 700;
+  align-items: center;
+}
+
+img {
+  width: 250px;
+}
+
+.nav ul li,
+.logbtn ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.nav ul li a,
+.logbtn ul li a {
+  text-decoration: none;
+  padding: 16px 18px;
+  /*background: black;*/
+  color: black;
+  font-size: 20px;
+}
+
+.nav ul li a:hover,
+.logbtn ul li a:hover,
+.registration button:hover {
+  border-bottom: 3px solid darkred;
+}
+
+.registration button {
+  border: none;
+  background-color: transparent;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 16px 18px;
+}
+
+.grid {
+  margin: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 350px;
+  height: 400px;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.review .fa {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.review {
+  margin: 20px 0 20px 22px;
+}
+
+.checked {
+  color: orange;
+}
+
+.imrv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.imrv img {
+  width: 80px;
+}
+
+.imrv h1 span {
+  font-size: 18px;
+  color: darkred;
+}
+
+.card {
+  width: 300px;
+}
+
+.content hr {
+  margin-top: 10px;
+  border: 1px solid red;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.social .fa {
+  color: #580187;
+}
+
+.socialm {
+  font-size: 20px;
+}
+
+.socialm:hover {
+  color: blue;
+}
+
+.pagination {
+  text-align: center;
+  margin: 30px 30px 60px;
+  user-select: none;
+}
+
+.pagination li {
+  display: inline-block;
+  margin: 5px;
+  box-shadow: 0 5px 25px rgb(1 1 1/ 10%);
+}
+
+.pagination li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  line-height: 45px;
+}
+
+.previous-page,
+.next-page {
+  background: #ff5900;
+  width: 80px;
+  border-radius: 45px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.previous-page:hover {
+  transform: translateX(-5px);
+}
+
+.next-page:hover {
+  transform: translateX(5px);
+}
+
+
+.current-page,
+.dots {
+  background: #ccc;
+  width: 45px;
+  border-radius: 45px;
+  cursor: pointer;
+}
+
+.active {
+  background: #ff5900;
+}
+
+.disable {
+  background: #ccc;
+}
+
+.card-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+footer {
+  padding: 50px;
+  background: black;
+}
+
+footer hr {
+  margin: 40px 0;
+}
+
+.first-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.contact-footer,
+.subscribe-footer,
+.menu-footer,
+.about-footer {
+  width: 300px;
+  color: white;
+}
+
+.menu-footer ul li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.menu-footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.social-footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.social-footer .fa {
+  font-size: 18px;
+  color: #ff5900;
+}
+
+.social-footer .fa:hover {
+  color: darkred;
+}
+
+.footer-logo img {
+  width: 180px;
+}
+
+.search-container form input[type="text"] {
+  padding: 10px 15px;
+  border-top: 2px solid #ff5900;
+  border-bottom: 2px solid #ff5900;
+  border-left: 2px solid #ff5900;
+  border-right: none;
+}
+
+.search-container button {
+  border-top: 2px solid #ff5900;
+  border-bottom: 2px solid #ff5900;
+  border-left: none;
+  border-right: 2px solid #ff5900;
+  background: #ff5900;
+  padding: 10px 10px;
+  color: white;
+}
+
+.seconde-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+@media screen and (max-width: 541px) {
+
+  .header {
+    justify-content: space-around;
+  }
+
+  .log {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .nav ul,
+  .registration {
+    display: none;
+  }
+
+  img {
+    width: 200px;
+  }
+
+  .content {
+    height: auto;
+    padding: 17px;
+    margin: 10px;
+  }
+
+  .card {
+    width: auto;
+  }
+
+  footer {
+    padding: 30px;
+    font-size: 13px;
+  }
+
+  .first-footer {
+    justify-content: center;
+  }
+
+  .contact-footer,
+  .subscribe-footer,
+  .menu-footer,
+  .about-footer {
+    margin-bottom: 65px;
+  }
+
+  .about-footer {
+    text-align: center;
+  }
+
+  .pagination {
+    margin: 29px 0px 28px;
+  }
+
+  .pagination li {
+    margin: 4px;
+  }
+
+  .pagination li a {
+    font-size: 0.9em;
+  }
+
+  .previous-page,
+  .next-page {
+    width: 60px;
+  }
+
+  .search-container form input[type="text"] {
+    padding: 5px 0px 5px 14px;
+    width: 65%;
+  }
+
+  .search-container button {
+    padding: 5px 13px;
+  }
+}
